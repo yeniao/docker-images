@@ -36,4 +36,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
-          skopeo copy docker://docker.io/jellyfin/jellyfin docker://crpi-7vkbtz5bp800bso1.cn-beijing.personal.cr.aliyuncs.com/butterfly-whispering/jellyfin/jellyfin:latest
+          skopeo copy docker://docker.io/jellyfin/jellyfin docker://registry.cn-beijing.aliyuncs.com/butterfly-whispering/jellyfin/jellyfin:latest
